@@ -26,7 +26,8 @@ export default class Counter extends Component {
 
   render() {
     return (
-      <div className="text-center mt-5">
+      <div className="text-center mt-3">
+        <h2>Let's Start Counting!</h2>  
         <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
         <button
           onClick={this.handleIncrement}
